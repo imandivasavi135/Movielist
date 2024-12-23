@@ -1,0 +1,70 @@
+/* Background Image Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://s3.ap-south-1.amazonaws.com/media.thesouthfirst.com/wp-content/uploads/2023/04/aha-logo.-.jpg);
+    background-size: cover; /* Makes the image cover the entire background */
+    opacity: 0.9;
+    -moz-background-inline-policy: each-box;
+    background-image: cross-fade();
+    background-image: url(https://plus.unsplash.com/premium_photo-1661675440353-6a6019c95bc7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW92aWV8ZW58MHx8MHx8fDA%3D);
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+    
+  h1, h2 {
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(248, 249, 245, 0.4);
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: hsl(0, 20%, 97%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;   
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
